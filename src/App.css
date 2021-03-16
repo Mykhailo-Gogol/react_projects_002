@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #505050;
+  outline: 1px solid slategrey;
+}
+body::-webkit-scrollbar-track {
+  background-color: #212121;
+  outline: 1px solid slategrey;
+}
+
+.movie-app > .row {
+  /* overflow-x: auto; */
+  scrollbar-color: #151515;
+  flex-wrap: nowrap;
+}
