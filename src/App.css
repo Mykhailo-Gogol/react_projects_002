@@ -23,3 +23,33 @@ body::-webkit-scrollbar-track {
   scrollbar-color: #151515;
   flex-wrap: nowrap;
 }
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.overlay:active {
+  background-color: red;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
