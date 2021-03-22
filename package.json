@@ -1,8 +1,8 @@
 {
-  "name": "react_projects_002",
+  "name": "react_projects_movie_app_002",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:///Mykhailo-Gogol.github.io/react_projects_002",
+  "homepage": "https:///Mykhailo-Gogol.github.io/react_projects_movie_app_002",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
