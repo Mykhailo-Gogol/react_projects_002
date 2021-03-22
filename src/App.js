@@ -13,12 +13,10 @@ const App = () => {
   const [searchValue, setSearchValue] = useState("");
   const [favorites, setFavorites] = useState([]);
 
-  useEffect(
-    (searchValue) => {
-      getMovieRequest(searchValue);
-    },
-    [searchValue]
-  );
+  useEffect((searchValue) => {
+    getMovieRequest(searchValue);
+  });
+
   useEffect(() => {
     const myFavorites = JSON.parse(
       localStorage.getItem("react-movie-app-favorites")
